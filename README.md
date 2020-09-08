@@ -1,39 +1,29 @@
-# flixtertyler
-Project 2 - Flixter
-Flixter shows the latest movies currently playing in theaters. The app utilizes the Movie Database API to display images and basic information about these movies to the user.
+## Flix Part 1
 
-Time spent: 16.5 hours spent in total
+### User Stories
+`TODO://` In the **User Stories section below**, add an `x` in the `-[ ]` like this `- [x]` for any user story you complete. (🚫 Remove this paragraph after after checking off completed user stories)
 
-User Stories
-The following required functionality is completed:
+#### REQUIRED (10pts)
+- [ ] (10pts) User can view a list of movies (title, poster image, and overview) currently playing in theaters from the Movie Database API.
 
- User can scroll through current movies from the Movie Database API
- Display a nice default placeholder graphic for each image during loading
- For each movie displayed, user can see the following details:
- Title, Poster Image, Overview (Portrait mode)
- Title, Backdrop Image, Overview (Landscape mode)
- Allow user to view details of the movie including ratings and popularity within a separate activity
-The following stretch features are implemented:
+#### BONUS
+- [ ] (2pts) Views should be responsive for both landscape/portrait mode.
+   - [ ] (1pt) In portrait mode, the poster image, title, and movie overview is shown.
+   - [ ] (1pt) In landscape mode, the rotated alternate layout should use the backdrop image instead and show the title and movie overview to the right of it.
 
- Improved the user interface by experimenting with styling and coloring.
- Apply rounded corners for the poster or background images using Glide transformations
- Apply the popular View Binding annotation library to reduce boilerplate code.
- Allow video trailers to be played in full-screen using the YouTubePlayerView from the details screen.
-The following additional features are implemented:
+- [ ] (2pts) Display a nice default [placeholder graphic](https://guides.codepath.org/android/Displaying-Images-with-the-Glide-Library#advanced-usage) for each image during loading
+- [ ] (2pts) Improved the user interface by experimenting with styling and coloring.
+- [ ] (2pts) For popular movies (i.e. a movie voted for more than 5 stars), the full backdrop image is displayed. Otherwise, a poster image, the movie title, and overview is listed. Use Heterogenous RecyclerViews and use different ViewHolder layout files for popular movies and less popular ones.
 
- Added Release date of movie in the details section
- Added Backdrop for the movie in the details section
- Added Play button over the image in the details section
- UI Changes: Theme, Background, Ratings bar color, positioning of elements for clarity's sake
- Added Landscape variant of details screen for clarity
-Video Walkthrough
-Here's a walkthrough of implemented user stories:
+### App Walkthough GIF
+`TODO://` Add the URL to your animated app walkthough `gif` in the image tag below, `YOUR_GIF_URL_HERE`. Make sure the gif actually renders and animates when viewing this README. 
+<img src="YOUR_GIF_URL_HERE" width=250><br>
 
-Video Walkthrough
+### Notes
+Describe any challenges encountered while building the app.
 
-GIF created with Kap.
+### Open-source libraries used
 
+- [Android Async HTTP](https://github.com/codepath/CPAsyncHttpClient) - Simple asynchronous HTTP requests with JSON parsing
+- [Glide](https://github.com/bumptech/glide) - Image loading and caching library for Androids
 
-Open-source libraries used
-Android Async HTTP - Simple asynchronous HTTP requests with JSON parsing
-Glide - Image loading and caching library for Android
